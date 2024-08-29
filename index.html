@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<body>
+
+    <nav>
+        <div class="logo">Poetry Haven</div>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search for a poet...">
+            <i class="fas fa-search search-icon"></i>
+        </div>
+        <div class="nav-buttons">
+            <button id="loginBtn">Login</button>
+            <button id="createBtn">Create Account</button>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1 class="speedball-text">Where Words Come Alive</h1>
+     <p id="animated-text" class="lead">Discover the beauty of poetry</p>
+<p id="typewriter-text">This is the line to be displayed letter by letter.</p>
+        <button class="subscribe-btn">Subscribe Now</button>
+    </div>
+
+    <div id="loginForm" class="form-container">
+        <form>
+            <span id="closeLogin" class="close">&times;</span>
+            <label for="username">Username</label>
+            <input type="text" id="username" class="input-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-field">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="input-field">
+            <button type="submit" class="form-btn">Login</button>
+            <p class="switch-message">Not registered? <span id="switchToCreate" class="link">Create an account</span></p>
+        </form>
+    </div>
+
+    <div id="createForm" class="form-container">
+        <form>
+            <span id="closeCreate" class="close">&times;</span>
+            <label for="create-username">Username</label>
+            <input type="text" id="create-username" class="input-field">
+            <label for="create-email">Email</label>
+            <input type="email" id="create-email" class="input-field">
+            <label for="create-password">Password</label>
+            <input type="password" id="create-password" class="input-field">
+            <button type="submit" class="form-btn">Create Account</button>
+            <p class="switch-message">Already registered? <span id="switchToLogin" class="link">Login here</span></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
